@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  color: darkgreen;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./Images/leaf1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.poem-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 800px;
+  padding: 22px;
+  -webkit-transform: translate(-50%, -50%) rotate(-10deg);
+  -moz-transform: translate(-50%, -50%) rotate(-10deg);
+  -ms-transform: translate(-50%, -50%) rotate(-10deg);
+  -o-transform: translate(-50%, -50%) rotate(-10deg);
+  transform: translate(-50%, -50%) rotate(-10deg);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  text-align: right;
+}
+
+.header {
+  margin-top: 5rem;
+  letter-spacing: 1.5rem;
+  font-weight: 100;
+  font-size: 1.8rem;
+}
+
+.line {
+  display: block;
+  width: 250px;
+  height: 1px;
+  margin: 6rem auto;
+  background-color: green;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 14px;
+  font-weight: 200;
+}
