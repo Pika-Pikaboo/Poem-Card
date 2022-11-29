@@ -34,9 +34,9 @@ body {
   -ms-transform: translate(-50%, -50%) rotate(-10deg);
   -o-transform: translate(-50%, -50%) rotate(-10deg);
   transform: translate(-50%, -50%) rotate(-10deg);
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border-radius: 6px;
   text-align: right;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
